@@ -48,5 +48,7 @@ int main()
 
     cout << "Masukkan Panjang : ";
     cin >> objekPP.panjang;
+    cout << "Masukkan Lebar : ";
+    cin >> objekPP.lebar;
     
 }
