@@ -9,5 +9,15 @@ class mahasiswa{
 };
 
 int main(){
+    mahasiswa mhs{1}; // Object mhs
+    mhs.showNim(); // Member acces operator
 
+    mahasiswa &refMhs = mhs; // Pointer Reference refMhs
+    refMhs.nim = 2; // Member Access Operator
+    mhs.showNim();
+
+    mahasiswa *pMhs = &mhs;
+    pMhs->nim = 3; // Arrow operator
+    pMhs->showNim();
+    return 0;
 }
