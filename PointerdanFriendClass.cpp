@@ -45,5 +45,8 @@ int main()
 {
     PersegiPanjang objekPP; //Membuat objek
     Lingkaran ol;
+
+    cout << "Masukkan Panjang : ";
+    cin >> objekPP.panjang;
     
 }
