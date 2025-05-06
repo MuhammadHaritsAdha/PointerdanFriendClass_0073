@@ -16,4 +16,22 @@ class PersegiPanjang
             cin >> lebar;
         }
 
+        int luasPp(int a, int b)
+        {
+            return a * b;
+        }
+
+        Lingkaran ol;
+};
+
+class Lingkaran
+{
+public : 
+    int jarijari;
+
+    void input() 
+    {
+        cout << "Masukkan Jari-jari : ";
+        cin >> jarijari;
+    }
 }
